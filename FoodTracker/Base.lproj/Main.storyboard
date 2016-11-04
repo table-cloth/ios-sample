@@ -39,8 +39,8 @@
                                         <textInputTraits key="textInputTraits"/>
                                     </textField>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="J4B-Lp-fL8">
-                                        <rect key="frame" x="0.0" y="74.5" width="143" height="30"/>
-                                        <state key="normal" title="Set Default Lbel Text"/>
+                                        <rect key="frame" x="0.0" y="74.5" width="151" height="30"/>
+                                        <state key="normal" title="Set Default Label Text"/>
                                         <connections>
                                             <action selector="setDefaultLabelText:" destination="BYZ-38-t0r" eventType="touchUpInside" id="zuc-qg-IIx"/>
                                         </connections>
@@ -52,7 +52,7 @@
                                             <constraint firstAttribute="width" secondItem="xGU-Hd-VJF" secondAttribute="height" multiplier="1:1" id="OG8-lj-xAy"/>
                                         </constraints>
                                         <connections>
-                                            <outletCollection property="gestureRecognizers" destination="HiJ-Jy-12p" appends="YES" id="HC9-bc-1Ya"/>
+                                            <outletCollection property="gestureRecognizers" destination="ROz-Fw-AXq" appends="YES" id="nFA-NQ-WGM"/>
                                         </connections>
                                     </imageView>
                                 </subviews>
@@ -74,9 +74,9 @@
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
-                <tapGestureRecognizer id="HiJ-Jy-12p">
+                <tapGestureRecognizer id="ROz-Fw-AXq">
                     <connections>
-                        <action selector="selectImageFromPhotoLibrary:" destination="BYZ-38-t0r" id="zog-gU-3fM"/>
+                        <action selector="selectImageFromPhotoLibrary:" destination="BYZ-38-t0r" id="4y9-eW-vbi"/>
                     </connections>
                 </tapGestureRecognizer>
             </objects>
